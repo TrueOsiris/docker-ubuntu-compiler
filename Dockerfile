@@ -12,6 +12,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
                        libhwloc-dev \
                        cmake-curses-gui \
                        git \
+                       lsb \
  && rm -rf /var/lib/apt/lists/*
  
 VOLUME ["/mnt/hostvol"]
