@@ -5,6 +5,12 @@ ENV TZ 'Europe/Brussels'
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update \
  && apt-get install -y vim \
+                       libmicrohttpd-dev \
+                       libssl-dev \
+                       cmake \
+                       build-essential \
+                       libhwloc-dev \
+                       cmake-curses-gui \
  && rm -rf /var/lib/apt/lists/*
  
 VOLUME ["/mnt/hostvol"]
