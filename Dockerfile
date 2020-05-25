@@ -13,6 +13,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get update \
                        cmake-curses-gui \
                        git \
                        lsb \
+                       apt-utils \
  && rm -rf /var/lib/apt/lists/*
  
 VOLUME ["/mnt/hostvol"]
