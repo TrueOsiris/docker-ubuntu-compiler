@@ -1,4 +1,4 @@
-FROM trueosiris/ubuntu-dotnet
+FROM trueosiris/ubuntu-dotnet:latest
 MAINTAINER tim@chaubet.be
 
 ENV TZ 'Europe/Brussels'
